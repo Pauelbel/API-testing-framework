@@ -1,5 +1,5 @@
 import requests
-from data import Base_url
+from data import rest_api_data
 from requests import Response
 import json
 import textwrap
@@ -21,7 +21,7 @@ class RestApiClient():
     @staticmethod
     def _send(url: str, data: dict, headers: dict, cookies: dict, method: str):
         
-        url = f"{Base_url['url']}{url}"
+        url = f"{rest_api_data['url']}{url}"
 
         if headers is None:
             headers = {}

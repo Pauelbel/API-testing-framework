@@ -33,3 +33,4 @@
 
 ## Тестируемые ресурсы
 Rest API - https://reqres.in/
+Soap Api - http://users.bugred.ru/tasks/soap/WrapperSoapServer.php?wsdl
